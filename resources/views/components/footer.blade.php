@@ -1,4 +1,4 @@
-<footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top border-dark-subtle">
+<footer class="d-flex flex-wrap justify-content-center align-items-center  my-4 border-top border-dark-subtle">
     <div class="col-md-4 d-flex align-items-center">
       <a href="/" class="mb-3 mx-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
         <i class="bi bi-emoji-neutral fs-3"></i>
