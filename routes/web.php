@@ -5,6 +5,5 @@ use App\Http\Controllers\PublicController;
 use App\Http\Controllers\ArticleController;
 
 Route::get('/',[PublicController::class,"home"])->name("home");
-Route::get('/anime',[PublicController::class,"anime"])->name("anime");
-Route::get('/article/create',[ArticleController::class,"create"])->name("article.create");
-Route::post('/article/store',[ArticleController::class,"store"])->name("article.store");
+Route::get('/auth/login',[ArticleController::class,"login"])->name("auth.login");
+Route::post('/auth/register',[ArticleController::class,"register"])->name("auth.register");
